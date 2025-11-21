@@ -70,7 +70,7 @@ main {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 30px;
 }
 
 .main-title {
@@ -118,7 +118,9 @@ footer {
   }
 
   header {
-    margin: 24px 0;
+    margin-bottom: 24px;
+    padding: 24px;
+    background-color: #f4ecdb;
   }
 
   nav {
@@ -131,10 +133,14 @@ footer {
     background-color: #93b274;
   }
 
+  h1 {
+    font-size: 48px;
+  }
+
   nav a {
     text-decoration: none;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     color: #f4ecdb;
     padding: 16px;
   }
